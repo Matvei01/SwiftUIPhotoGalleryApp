@@ -9,6 +9,7 @@ import Foundation
 
 class ObservablePhotoViewModel: ObservableObject {
     @Published var photos: [UnsplashPhoto] = []
+    
     var searchTerm: String = "" {
         didSet {
             viewModel.searchTerm = searchTerm
