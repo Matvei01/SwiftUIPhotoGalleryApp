@@ -15,6 +15,7 @@
 		1AA52E872C627E2E006F4969 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E862C627E2E006F4969 /* APIManager.swift */; };
 		1AA52E892C6280B5006F4969 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E882C6280B5006F4969 /* NetworkDataFetcher.swift */; };
 		1AA52E8D2C628B7B006F4969 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E8C2C628B7B006F4969 /* PhotoViewModel.swift */; };
+		1AA52E8F2C628CE0006F4969 /* ObservablePhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E8E2C628CE0006F4969 /* ObservablePhotoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1AA52E862C627E2E006F4969 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		1AA52E882C6280B5006F4969 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		1AA52E8C2C628B7B006F4969 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		1AA52E8E2C628CE0006F4969 /* ObservablePhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservablePhotoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				1AA52E8C2C628B7B006F4969 /* PhotoViewModel.swift */,
+				1AA52E8E2C628CE0006F4969 /* ObservablePhotoViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			files = (
 				1AA52E772C627B04006F4969 /* ContentView.swift in Sources */,
 				1AA52E8D2C628B7B006F4969 /* PhotoViewModel.swift in Sources */,
+				1AA52E8F2C628CE0006F4969 /* ObservablePhotoViewModel.swift in Sources */,
 				1AA52E752C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift in Sources */,
 				1AA52E872C627E2E006F4969 /* APIManager.swift in Sources */,
 				1AA52E842C627B54006F4969 /* SearchResponse.swift in Sources */,
