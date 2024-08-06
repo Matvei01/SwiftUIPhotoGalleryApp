@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AA52E752C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E742C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift */; };
-		1AA52E772C627B04006F4969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E762C627B04006F4969 /* ContentView.swift */; };
+		1AA52E772C627B04006F4969 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E762C627B04006F4969 /* PhotoGalleryView.swift */; };
 		1AA52E792C627B06006F4969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA52E782C627B06006F4969 /* Assets.xcassets */; };
 		1AA52E7C2C627B06006F4969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA52E7B2C627B06006F4969 /* Preview Assets.xcassets */; };
 		1AA52E842C627B54006F4969 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E832C627B54006F4969 /* SearchResponse.swift */; };
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		1AA52E712C627B04006F4969 /* SwiftUIPhotoGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPhotoGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA52E742C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryAppApp.swift; sourceTree = "<group>"; };
-		1AA52E762C627B04006F4969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AA52E762C627B04006F4969 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
 		1AA52E782C627B06006F4969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA52E7B2C627B06006F4969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AA52E832C627B54006F4969 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 				1AA52E8A2C628825006F4969 /* ViewModels */,
 				1AA52E852C627E0D006F4969 /* Services */,
 				1AA52E742C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift */,
-				1AA52E762C627B04006F4969 /* ContentView.swift */,
 				1AA52E782C627B06006F4969 /* Assets.xcassets */,
 				1AA52E7A2C627B06006F4969 /* Preview Content */,
 			);
@@ -118,6 +117,7 @@
 			children = (
 				1AA52E902C629043006F4969 /* SearchBar.swift */,
 				1AA52E922C6293FE006F4969 /* PhotoView.swift */,
+				1AA52E762C627B04006F4969 /* PhotoGalleryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA52E772C627B04006F4969 /* ContentView.swift in Sources */,
+				1AA52E772C627B04006F4969 /* PhotoGalleryView.swift in Sources */,
 				1AA52E8D2C628B7B006F4969 /* PhotoViewModel.swift in Sources */,
 				1AA52E8F2C628CE0006F4969 /* ObservablePhotoViewModel.swift in Sources */,
 				1AA52E932C6293FE006F4969 /* PhotoView.swift in Sources */,

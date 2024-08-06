@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ObservablePhotoViewModel: ObservableObject {
+final class ObservablePhotoViewModel: ObservableObject {
     @Published var photos: [UnsplashPhoto] = []
     
     var searchTerm: String = "" {
@@ -29,6 +29,6 @@ extension ObservablePhotoViewModel: PhotoViewModelDelegate {
     }
     
     func didFailWithError(_ error: Error) {
-        print("Ошибка при получении фотографий: \(error)")
+        print("Error fetching photos: \(error)")
     }
 }

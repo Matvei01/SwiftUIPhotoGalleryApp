@@ -13,7 +13,7 @@ struct SearchResponse: Decodable {
 }
 
 struct UnsplashPhoto: Decodable, Identifiable {
-    var id: UUID = UUID()
+    let id: String
     let urls: [PhotoSize.RawValue: String]
 }
 
