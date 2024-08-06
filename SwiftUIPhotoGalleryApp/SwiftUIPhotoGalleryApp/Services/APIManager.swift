@@ -45,7 +45,7 @@ final class APIManager {
         components.queryItems = parameters.map { URLQueryItem(name: $0, value: $1) }
         
         guard let url = components.url else {
-            fatalError("Недействительный базовый URL")
+            fatalError("Invalid base URL")
         }
         return url
     }

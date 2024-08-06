@@ -26,7 +26,7 @@ final class NetworkDataFetcher {
         URLSession.shared.dataTask(with: request) { data, _, error in
             guard let data = data else {
                 completion(.failure(.noData))
-                print(error?.localizedDescription ?? "Без описания ошибки")
+                print(error?.localizedDescription ?? "No error description")
                 return
             }
             do {

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AA52E752C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E742C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift */; };
-		1AA52E772C627B04006F4969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E762C627B04006F4969 /* ContentView.swift */; };
+		1AA52E772C627B04006F4969 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E762C627B04006F4969 /* PhotoGalleryView.swift */; };
 		1AA52E792C627B06006F4969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA52E782C627B06006F4969 /* Assets.xcassets */; };
 		1AA52E7C2C627B06006F4969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA52E7B2C627B06006F4969 /* Preview Assets.xcassets */; };
 		1AA52E842C627B54006F4969 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E832C627B54006F4969 /* SearchResponse.swift */; };
@@ -16,12 +16,15 @@
 		1AA52E892C6280B5006F4969 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E882C6280B5006F4969 /* NetworkDataFetcher.swift */; };
 		1AA52E8D2C628B7B006F4969 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E8C2C628B7B006F4969 /* PhotoViewModel.swift */; };
 		1AA52E8F2C628CE0006F4969 /* ObservablePhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E8E2C628CE0006F4969 /* ObservablePhotoViewModel.swift */; };
+		1AA52E912C629043006F4969 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E902C629043006F4969 /* SearchBar.swift */; };
+		1AA52E932C6293FE006F4969 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E922C6293FE006F4969 /* PhotoView.swift */; };
+		1AA52E962C6294E1006F4969 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1AA52E952C6294E1006F4969 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AA52E712C627B04006F4969 /* SwiftUIPhotoGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPhotoGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA52E742C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryAppApp.swift; sourceTree = "<group>"; };
-		1AA52E762C627B04006F4969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AA52E762C627B04006F4969 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
 		1AA52E782C627B06006F4969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA52E7B2C627B06006F4969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AA52E832C627B54006F4969 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
@@ -29,6 +32,8 @@
 		1AA52E882C6280B5006F4969 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		1AA52E8C2C628B7B006F4969 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
 		1AA52E8E2C628CE0006F4969 /* ObservablePhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservablePhotoViewModel.swift; sourceTree = "<group>"; };
+		1AA52E902C629043006F4969 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1AA52E922C6293FE006F4969 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA52E962C6294E1006F4969 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +72,6 @@
 				1AA52E8A2C628825006F4969 /* ViewModels */,
 				1AA52E852C627E0D006F4969 /* Services */,
 				1AA52E742C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift */,
-				1AA52E762C627B04006F4969 /* ContentView.swift */,
 				1AA52E782C627B06006F4969 /* Assets.xcassets */,
 				1AA52E7A2C627B06006F4969 /* Preview Content */,
 			);
@@ -110,6 +115,9 @@
 		1AA52E8B2C62884D006F4969 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1AA52E902C629043006F4969 /* SearchBar.swift */,
+				1AA52E922C6293FE006F4969 /* PhotoView.swift */,
+				1AA52E762C627B04006F4969 /* PhotoGalleryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,6 +138,9 @@
 			dependencies = (
 			);
 			name = SwiftUIPhotoGalleryApp;
+			packageProductDependencies = (
+				1AA52E952C6294E1006F4969 /* SDWebImageSwiftUI */,
+			);
 			productName = SwiftUIPhotoGalleryApp;
 			productReference = 1AA52E712C627B04006F4969 /* SwiftUIPhotoGalleryApp.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 1AA52E682C627B04006F4969;
+			packageReferences = (
+				1AA52E942C6294E1006F4969 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 1AA52E722C627B04006F4969 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -184,11 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA52E772C627B04006F4969 /* ContentView.swift in Sources */,
+				1AA52E772C627B04006F4969 /* PhotoGalleryView.swift in Sources */,
 				1AA52E8D2C628B7B006F4969 /* PhotoViewModel.swift in Sources */,
 				1AA52E8F2C628CE0006F4969 /* ObservablePhotoViewModel.swift in Sources */,
+				1AA52E932C6293FE006F4969 /* PhotoView.swift in Sources */,
 				1AA52E752C627B04006F4969 /* SwiftUIPhotoGalleryAppApp.swift in Sources */,
 				1AA52E872C627E2E006F4969 /* APIManager.swift in Sources */,
+				1AA52E912C629043006F4969 /* SearchBar.swift in Sources */,
 				1AA52E842C627B54006F4969 /* SearchResponse.swift in Sources */,
 				1AA52E892C6280B5006F4969 /* NetworkDataFetcher.swift in Sources */,
 			);
@@ -330,8 +346,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,9 +355,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iosmaster.com.SwiftUIPhotoGalleryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,8 +379,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,9 +388,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iosmaster.com.SwiftUIPhotoGalleryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -396,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AA52E942C6294E1006F4969 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AA52E952C6294E1006F4969 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AA52E942C6294E1006F4969 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AA52E692C627B04006F4969 /* Project object */;
 }
